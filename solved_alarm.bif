@@ -1,0 +1,265 @@
+// Bayesian Network in the Interchange Format
+// Produced by BayesianNetworks package in JavaBayes
+// Output created Sun Nov 02 17:58:15 GMT+00:00 1997
+// Bayesian network 
+network "Alarm" { //37 variables and 37 probability distributions
+}
+variable  "Hypovolemia" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (54, 35)" ;
+}
+variable  "StrokeVolume" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (184, 113)" ;
+}
+variable  "LVFailure" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (145, 36)" ;
+}
+variable  "LVEDVolume" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (68, 114)" ;
+}
+variable  "PCWP" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (111, 177)" ;
+}
+variable  "CVP" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (32, 179)" ;
+}
+variable  "History" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (238, 61)" ;
+}
+variable  "MinVolSet" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (564, 38)" ;
+}
+variable  "VentMach" { //4 values
+	type discrete[4] {  "Zero"  "Low"  "Normal"  "High" };
+	property "position = (640, 86)" ;
+}
+variable  "Disconnect" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (738, 86)" ;
+}
+variable  "VentTube" { //4 values
+	type discrete[4] {  "Zero"  "Low"  "Normal"  "High" };
+	property "position = (682, 168)" ;
+}
+variable  "KinkedTube" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (564, 172)" ;
+}
+variable  "Press" { //4 values
+	type discrete[4] {  "Zero"  "Low"  "Normal"  "High" };
+	property "position = (722, 253)" ;
+}
+variable  "ErrLowOutput" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (226, 237)" ;
+}
+variable  "HRBP" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (229, 305)" ;
+}
+variable  "ErrCauter" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (366, 278)" ;
+}
+variable  "HREKG" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (289, 305)" ;
+}
+variable  "HRSat" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (220, 396)" ;
+}
+variable  "BP" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (154, 396)" ;
+}
+variable  "CO" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (195, 176)" ;
+}
+variable  "HR" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (308, 171)" ;
+}
+variable  "TPR" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (120, 301)" ;
+}
+variable  "Anaphylaxis" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (31, 239)" ;
+}
+variable  "InsuffAnesth" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (329, 37)" ;
+}
+variable  "PAP" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (1045, 292)" ;
+}
+variable  "PulmEmbolus" { //2 values
+	type discrete[2] {  "True"  "False" };
+	property "position = (969, 258)" ;
+}
+variable  "FiO2" { //2 values
+	type discrete[2] {  "Low"  "Normal" };
+	property "position = (1014, 162)" ;
+}
+variable  "Catechol" { //2 values
+	type discrete[2] {  "Normal"  "High" };
+	property "position = (329, 107)" ;
+}
+variable  "SaO2" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (926, 387)" ;
+}
+variable  "Shunt" { //2 values
+	type discrete[2] {  "Normal"  "High" };
+	property "position = (894, 293)" ;
+}
+variable  "PVSat" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (949, 197)" ;
+}
+variable  "MinVol" { //4 values
+	type discrete[4] {  "Zero"  "Low"  "Normal"  "High" };
+	property "position = (754, 387)" ;
+}
+variable  "ExpCO2" { //4 values
+	type discrete[4] {  "Zero"  "Low"  "Normal"  "High" };
+	property "position = (530, 393)" ;
+}
+variable  "ArtCO2" { //3 values
+	type discrete[3] {  "Low"  "Normal"  "High" };
+	property "position = (474, 277)" ;
+}
+variable  "VentAlv" { //4 values
+	type discrete[4] {  "Zero"  "Low"  "Normal"  "High" };
+	property "position = (881, 165)" ;
+}
+variable  "VentLung" { //4 values
+	type discrete[4] {  "Zero"  "Low"  "Normal"  "High" };
+	property "position = (706, 344)" ;
+}
+variable  "Intubation" { //3 values
+	type discrete[3] {  "Normal"  "Esophageal"  "OneSided" };
+	property "position = (843, 86)" ;
+}
+probability (  "Hypovolemia" ) { //1 variable(s) and 2 values
+	table 0.2043 0.7957 ;
+}
+probability (  "StrokeVolume"  "LVFailure"  "Hypovolemia" ) { //3 variable(s) and 12 values
+	table 0.9998 0.4961 0.9460 0.0502 0.0100 0.4875 0.0424 0.9003 0.0100 0.0164 0.0116 0.0495 ;
+}
+probability (  "LVFailure" ) { //1 variable(s) and 2 values
+	table 0.0504 0.9496 ;
+}
+probability (  "LVEDVolume"  "Hypovolemia"  "LVFailure" ) { //3 variable(s) and 12 values
+	table 0.9423 0.9771 0.0100 0.0481 0.0411 0.0105 0.0833 0.8996 0.0166 0.0124 0.9119 0.0523 ;
+}
+probability (  "PCWP"  "LVEDVolume" ) { //2 variable(s) and 9 values
+	table 0.9471 0.0376 0.0120 0.0445 0.9519 0.0379 0.0100 0.0104 0.9501 ;
+}
+probability (  "CVP"  "LVEDVolume" ) { //2 variable(s) and 9 values
+	table 0.9473 0.0441 0.0100 0.0416 0.9435 0.2712 0.0110 0.0124 0.7211 ;
+}
+probability (  "History"  "LVFailure" ) { //2 variable(s) and 4 values
+	table 0.9104 0.0110 0.0896 0.9890 ;
+}
+probability (  "MinVolSet" ) { //1 variable(s) and 3 values
+	table 0.0100 0.9802 0.0100 ;
+}
+probability (  "VentMach"  "MinVolSet" ) { //2 variable(s) and 12 values
+	table 0.0131 0.0104 0.0100 0.9401 0.0103 0.0100 0.0283 0.9701 0.0100 0.0186 0.0100 0.9897 ;
+}
+probability (  "Disconnect" ) { //1 variable(s) and 2 values
+	table 0.0495 0.9505 ;
+}
+probability (  "VentTube"  "VentMach"  "Disconnect" ) { //3 variable(s) and 32 values
+	table 0.9995 0.9236 0.6684 0.0226 0.9725 0.0103 0.9994 0.0100 0.0100 0.0286 0.1694 0.9626 0.0100 0.0108 0.0100 0.0100 0.0100 0.0380 0.1620 0.0100 0.0137 0.9691 0.0100 0.0102 0.0100 0.0100 0.0100 0.0100 0.0100 0.0100 0.0100 0.9785 ;
+}
+probability (  "KinkedTube" ) { //1 variable(s) and 2 values
+	table 0.0450 0.9550 ;
+}
+probability (  "Press"  "KinkedTube"  "Intubation"  "VentTube" ) { //4 variable(s) and 96 values
+	table 0.9231 0.0100 0.0100 0.0100 0.2500 0.0128 0.0100 0.2500 0.9984 0.0100 0.0100 0.4542 0.9790 0.0113 0.0115 0.0100 0.9997 0.5367 0.2042 0.1806 0.9532 0.0100 0.0157 0.0100 0.0100 0.6386 0.0103 0.0100 0.2500 0.9617 0.2640 0.2500 0.0100 0.2007 0.0100 0.0100 0.0100 0.9734 0.0100 0.0100 0.0100 0.4632 0.7220 0.8176 0.0236 0.8876 0.0100 0.0100 0.0100 0.2179 0.0684 0.0100 0.2500 0.0128 0.4037 0.2500 0.0100 0.0100 0.1007 0.0100 0.0100 0.0100 0.9709 0.0100 0.0100 0.0100 0.0581 0.0100 0.0230 0.1111 0.3959 0.0100 0.0749 0.1428 0.9211 0.9990 0.2500 0.0128 0.3319 0.2500 0.0100 0.7978 0.8977 0.5448 0.0100 0.0100 0.0100 0.9767 0.0100 0.0100 0.0157 0.0100 0.0100 0.0100 0.5819 0.9996 ;
+}
+probability (  "ErrLowOutput" ) { //1 variable(s) and 2 values
+	table 0.0509 0.9491 ;
+}
+probability (  "HRBP"  "ErrLowOutput"  "HR" ) { //3 variable(s) and 18 values
+	table 0.9572 0.3554 0.3220 0.9758 0.0100 0.0100 0.0100 0.6398 0.3634 0.0121 0.9809 0.0106 0.0424 0.0100 0.3147 0.0121 0.0100 0.9800 ;
+}
+probability (  "ErrCauter" ) { //1 variable(s) and 2 values
+	table 0.0982 0.9018 ;
+}
+probability (  "HREKG"  "HR"  "ErrCauter" ) { //3 variable(s) and 18 values
+	table 0.3572 0.9886 0.3918 0.0132 0.3203 0.0100 0.2650 0.0111 0.3005 0.9754 0.3381 0.0100 0.3778 0.0100 0.3076 0.0114 0.3416 0.9816 ;
+}
+probability (  "HRSat"  "HR"  "ErrCauter" ) { //3 variable(s) and 18 values
+	table 0.3025 0.9733 0.3046 0.0100 0.3292 0.0100 0.3619 0.0154 0.3131 0.9794 0.3202 0.0100 0.3356 0.0113 0.3824 0.0108 0.3506 0.9821 ;
+}
+probability (  "BP"  "CO"  "TPR" ) { //3 variable(s) and 27 values
+	table 0.9827 0.9712 0.3040 0.9839 0.0945 0.0502 0.9045 0.0374 0.0100 0.0100 0.0112 0.6015 0.0100 0.8460 0.3858 0.0830 0.1971 0.0873 0.0100 0.0176 0.0945 0.0100 0.0596 0.5640 0.0125 0.7655 0.9034 ;
+}
+probability (  "CO"  "HR"  "StrokeVolume" ) { //3 variable(s) and 27 values
+	table 0.9701 0.9581 0.3410 0.9477 0.0424 0.0100 0.8013 0.0100 0.0147 0.0100 0.0391 0.6590 0.0393 0.9471 0.3525 0.1908 0.0379 0.0100 0.0223 0.0100 0.0100 0.0130 0.0105 0.6419 0.0100 0.9520 0.9845 ;
+}
+probability (  "HR"  "Catechol" ) { //2 variable(s) and 6 values
+	table 0.1033 0.0101 0.8842 0.0871 0.0126 0.9028 ;
+}
+probability (  "TPR"  "Anaphylaxis" ) { //2 variable(s) and 6 values
+	table 0.9885 0.3049 0.0100 0.3961 0.0111 0.2990 ;
+}
+probability (  "Anaphylaxis" ) { //1 variable(s) and 2 values
+	table 0.0100 0.9917 ;
+}
+probability (  "InsuffAnesth" ) { //1 variable(s) and 2 values
+	table 0.2007 0.7993 ;
+}
+probability (  "PAP"  "PulmEmbolus" ) { //2 variable(s) and 6 values
+	table 0.0100 0.0502 0.1892 0.9018 0.8102 0.0480 ;
+}
+probability (  "PulmEmbolus" ) { //1 variable(s) and 2 values
+	table 0.0108 0.9892 ;
+}
+probability (  "FiO2" ) { //1 variable(s) and 2 values
+	table 0.0100 0.9902 ;
+}
+probability (  "Catechol"  "InsuffAnesth"  "SaO2"  "TPR"  "ArtCO2" ) { //5 variable(s) and 108 values
+	table 0.1118 0.0100 0.0136 0.0100 0.0100 0.0164 0.0100 0.0301 0.0166 0.0100 0.0103 0.0100 0.0339 0.0100 0.0100 0.0100 0.0592 0.0100 0.0100 0.0100 0.0100 0.0438 0.1093 0.0100 0.0354 0.0100 0.0100 0.1147 0.0335 0.0100 0.0433 0.0405 0.0100 0.0630 0.0487 0.0110 0.1210 0.1100 0.1228 0.9879 0.9475 0.3079 0.9292 0.9557 0.2684 0.9360 0.9510 0.3116 0.9832 0.9919 0.9997 0.9608 0.9999 0.4092 0.8882 1.0000 0.9864 0.9983 1.0000 0.9836 0.9999 0.9699 0.9834 0.9952 0.9897 0.9999 0.9661 0.9913 0.9996 0.9998 0.9408 0.9999 0.9999 0.9997 0.9956 0.9562 0.8907 0.9998 0.9646 0.9994 0.9998 0.8853 0.9665 0.9983 0.9567 0.9595 0.9943 0.9370 0.9513 0.9890 0.8790 0.8900 0.8772 0.0121 0.0525 0.6921 0.0708 0.0443 0.7316 0.0640 0.0490 0.6884 0.0168 0.0100 0.0100 0.0392 0.0100 0.5908 ;
+}
+probability (  "SaO2"  "Shunt"  "PVSat" ) { //3 variable(s) and 18 values
+	table 0.9789 0.0100 0.0164 0.9742 0.9896 0.7690 0.0100 0.9803 0.0100 0.0146 0.0100 0.2307 0.0131 0.0113 0.9762 0.0113 0.0100 0.0100 ;
+}
+probability (  "Shunt"  "PulmEmbolus"  "Intubation" ) { //3 variable(s) and 12 values
+	table 0.0841 0.0100 0.0100 0.9511 0.9606 0.0441 0.9159 0.9977 0.9998 0.0489 0.0394 0.9559 ;
+}
+probability (  "PVSat"  "VentAlv"  "FiO2" ) { //3 variable(s) and 24 values
+	table 0.9999 0.9849 0.9991 0.9787 0.9591 0.0100 0.9994 0.0100 0.0100 0.0100 0.0100 0.0100 0.0406 0.9475 0.0100 0.0158 0.0100 0.0100 0.0100 0.0115 0.0100 0.0429 0.0100 0.9775 ;
+}
+probability (  "MinVol"  "VentLung"  "Intubation" ) { //3 variable(s) and 48 values
+	table 0.9758 0.9832 0.9712 0.0100 0.9968 0.0100 0.0100 0.5007 0.0156 0.0100 0.4998 0.0100 0.0100 0.0100 0.0143 0.9775 0.0100 0.9705 0.0100 0.4981 0.0134 0.0145 0.4997 0.0100 0.0100 0.0100 0.0100 0.0103 0.0100 0.0100 0.9695 0.0100 0.9577 0.0117 0.0100 0.0100 0.0100 0.0100 0.0143 0.0100 0.0100 0.0294 0.0114 0.0100 0.0133 0.9679 0.0100 0.9997 ;
+}
+probability (  "ExpCO2"  "ArtCO2"  "VentLung" ) { //3 variable(s) and 48 values
+	table 0.9994 0.1106 0.0122 0.0100 0.9292 0.0778 0.0100 0.0100 0.9719 0.0100 0.0117 0.0477 0.0100 0.8861 0.9750 0.9737 0.0352 0.0100 0.0100 0.0100 0.0100 0.0116 0.0100 0.0100 0.0100 0.0100 0.0100 0.0131 0.0100 0.9205 0.9717 0.9998 0.0112 0.0100 0.0100 0.0477 0.0100 0.0100 0.0100 0.0100 0.0352 0.0100 0.0101 0.0100 0.0100 0.9715 0.9752 0.9045 ;
+}
+probability (  "ArtCO2"  "VentAlv" ) { //2 variable(s) and 12 values
+	table 0.0100 0.0100 0.0424 0.8989 0.0100 0.0112 0.9205 0.0853 0.9835 0.9819 0.0371 0.0158 ;
+}
+probability (  "VentAlv"  "Intubation"  "VentLung" ) { //3 variable(s) and 48 values
+	table 0.9731 0.0101 0.0100 0.0100 0.9641 0.0100 0.0100 0.0100 0.9288 0.0100 0.0100 0.0100 0.0100 0.9651 0.0100 0.0100 0.0132 0.9970 0.0100 0.0100 0.0288 0.9993 0.9570 0.7997 0.0128 0.0100 0.9724 0.0143 0.0100 0.0100 0.9980 0.0100 0.0283 0.0100 0.0334 0.1334 0.0100 0.0149 0.0100 0.9742 0.0130 0.0100 0.0100 0.9992 0.0142 0.0100 0.0100 0.0668 ;
+}
+probability (  "VentLung"  "KinkedTube"  "VentTube"  "Intubation" ) { //4 variable(s) and 96 values
+	table 0.9998 0.2500 0.9985 0.9329 0.9617 0.9976 0.4239 0.9998 0.6297 0.3345 0.2500 0.9986 0.9789 0.9998 0.9767 0.0100 0.9992 0.0100 0.0100 0.9733 0.0100 0.0100 0.9988 0.0884 0.0100 0.2500 0.0100 0.0670 0.0128 0.0100 0.5662 0.0100 0.3700 0.6648 0.2500 0.0100 0.0100 0.0100 0.0100 0.9607 0.0100 0.9471 0.0116 0.0100 0.0134 0.0187 0.0100 0.0100 0.0100 0.2500 0.0100 0.0100 0.0128 0.0100 0.0100 0.0100 0.0100 0.0100 0.2500 0.0100 0.0100 0.0100 0.0100 0.0111 0.0100 0.0528 0.9705 0.0100 0.9642 0.0100 0.0100 0.0100 0.0100 0.2500 0.0100 0.0100 0.0128 0.0100 0.0100 0.0100 0.0100 0.0100 0.2500 0.0100 0.0100 0.0100 0.0225 0.0185 0.0100 0.0100 0.0100 0.0152 0.0127 0.9662 0.0100 0.9111 ;
+}
+probability (  "Intubation" ) { //1 variable(s) and 3 values
+	table 0.9194 0.0286 0.0520 ;
+}
