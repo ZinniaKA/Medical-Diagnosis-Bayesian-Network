@@ -10,8 +10,7 @@ A medical diagnosis system built from 10,000 broken (1 attribute missing) patien
 To run -
 
 ```
-bash compile.sh
-bash run.sh alarm.bif <sample_data>.dat
+./run.sh alarm.bif <sample_data>.dat
 
 ```
 
